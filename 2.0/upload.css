@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:dimgrey;
+    text-align: center;
+    margin: 0;
+    /*try removing and see what happens*/
+}
+
+form {
+    background-color: darkgrey;
+    padding: 25px;
+    margin: 50px auto;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+input[type="file"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto /*try value change and see what happens*/
+    border-radius: 5px;
+}
+
+button {
+    background-color:rgb(31, 184, 102);
+    color: black;
+}
+
+button:hover {
+    background-color: bisque;
+}
